@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-provisioner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listProvisioner/ListProvisionerWebPart.js",
+          "manifest": "./src/webparts/listProvisioner/ListProvisionerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListProvisionerWebPartStrings": "lib/webparts/listProvisioner/loc/{locale}.js"
+  }
+}
